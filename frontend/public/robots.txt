@@ -1,7 +1,23 @@
-User-Agent: *
-Disallow:
-
-User-agent: GPTBot
-Disallow:
+User-agent: *
+Allow: /
 
 Sitemap: https://iamelilla.com/sitemap.xml
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
